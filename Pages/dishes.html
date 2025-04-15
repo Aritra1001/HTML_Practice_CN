@@ -10,10 +10,15 @@
 </head>
 <body>
     <!-- Navigation Menu (Accessible on all pages) -->
-    <nav>
-        <!-- Add a welcome heading -->
-        <!-- Add links to Home, Dishes, and Contact Us pages -->
-    </nav>
+    <header>
+        <nav>
+          <!-- Add a welcome heading -->
+          <h1>Welcome to Restaurant</h1>
+          <!-- Add links to Home, Dishes, and Contact Us pages -->
+          <a href="./home.html">Home</a>&nbsp;&nbsp;
+          <a href="./dishes.html">Dishes</a>&nbsp;&nbsp;
+          <a href="./contact.html">Contact Us</a>
+        </nav>
 
     <section>
         <h1>Our Chefs</h1>
@@ -23,20 +28,45 @@
                 <th style="border: 1px solid black; padding: 15px;">Specialities</th>
             </tr>
             <!-- Chef details go here -->
+             <tr>
+                <td rowspan="2" style="border: 1px solid black">Chef Mario</td>
+                <td style="border: 1px solid black"> Italian</td>
+             </tr>
+             <tr>
+                <td style="border: 1px solid black">French</td>
+             </tr>
+             <tr>
+                <td rowspan="3" style="border: 1px solid black">Chef Mario</td>
+                <td style="border: 1px solid black"> Italian</td>
+             </tr>
+             <tr>
+                <td style="border: 1px solid black">French</td>
+             </tr>
+             <tr>
+                <td style="border: 1px solid black">French</td>
+             </tr>
+             <tr>
+                <td rowspan="2" style="border: 1px solid black">Chef Mario</td>
+                <td style="border: 1px solid black"> Italian</td>
+             </tr>
+             <tr>
+                <td style="border: 1px solid black">French</td>
+             </tr>
         </table>
     </section>
 
     <h2>Our Dishes</h2>
-    <section style="display: flex; gap:10px" id="special-dishes">
+    <section id="special-dishes">
         <div id="dish-1" class="dish">
-            <h2> [Dish Name]</h2>
-            <img src="image url" alt="Dish 1">
-            <p>[Dish description goes here]</p>
+            <h2>Paneer Butter Masala</h2>
+            <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2014/11/paneer-butter-masala-recipe-2.jpg" alt="Dish 1" height="250"
+            >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eum esse eaque reiciendis temporibus ab itaque veritatis laboriosam quibusdam assumenda maxime, fugit saepe odit incidunt recusandae nostrum nam aperiam iusto.</p>
         </div>
         <div id="dish-2" class="dish">
-            <h2> [Dish Name]</h2>
-            <img src="image url" alt="Dish 2" height="250px">
-            <p>[Dish description goes here]</p>
+            <h2>Pasta</h2>
+            <img src="https://media.istockphoto.com/id/1325172440/photo/spaghetti-alla-puttanesca-italian-pasta-dish-with-tomatoes-black-olives-capers-anchovies-and.jpg?s=612x612&w=0&k=20&c=ieMxGg7flhSltOMDpuLZINAWYT2W2WDjJTlwoUWuwH4=" alt="Dish 2" height="250px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sunt officiis nesciunt harum itaque optio inventore? Suscipit modi tempore amet aspernatur blanditiis rerum ea consequuntur quia. Quis sapiente enim eius?</p>
         </div>
     </section>
 </body>
